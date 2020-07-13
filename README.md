@@ -42,11 +42,13 @@ Run **offline_data_generate.py**
 ### **==> Train**
 
 Download the Deeplab Resnet 101 pretrained COCO model from [here](https://pan.baidu.com/s/1mZDDUqjHWn94MVHPFSeSrQ) (password 6a2l) and place it in 'pretrained/' folder.
+
 Run **train_offline.py**
 
 ### **==> Test**
 
 If you want to skip offline training,you can use [trained model](https://pan.baidu.com/s/1mZDDUqjHWn94MVHPFSeSrQ) (password 6a2l)
+
 Run **online_test.py**
 
 
