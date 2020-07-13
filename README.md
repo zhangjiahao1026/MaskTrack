@@ -35,7 +35,7 @@ There are three folders in **db_offline_train_root_dir()** which are **./Annotat
 Run **split_train.py** to generate **train.txt** and **val.txt** in the current directory
 Put **train.txt** and **val.txt** into **./ImageSets**
 
-**==> Generate training data**
+### **==> Generate training data**
 
 Run **offline_data_generate.py**
 
