@@ -32,17 +32,21 @@ There are three folders in **db_offline_train_root_dir()** which are **./Annotat
 Divide 50 videos into validation sets
 
 **==> Divide 50 videos into validation sets**
+
 Run **split_train.py** to generate **train.txt** and **val.txt** in the current directory
 Put **train.txt** and **val.txt** into **./ImageSets**
 
 **==> Generate training data**
+
 Run **offline_data_generate.py**
 
 **==> Train**
+
 Download the Deeplab Resnet 101 pretrained COCO model from [here](https://pan.baidu.com/s/1mZDDUqjHWn94MVHPFSeSrQ) (password 6a2l) and place it in 'pretrained/' folder.
 Run **train_offline.py**
 
 **==> Test**
+
 If you want to skip offline training,you can use [trained model](https://pan.baidu.com/s/1mZDDUqjHWn94MVHPFSeSrQ) (password 6a2l)
 Run **online_test.py**
 
