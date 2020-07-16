@@ -47,7 +47,7 @@ if __name__=='__main__':
     weight_decay = float(0.001)
     base_lr = float(0.0005)
     resume_epoch = int(0)  # Default is 0, change if want to resume
-    nEpochs = int(15)  # Number of epochs for training (500.000/2079)
+    nEpochs = int(1)  # 1 epoch 
     batch_size = int(3)
     vbatch_size = 3
     db_root_dir = Path.db_offline_train_root_dir()
