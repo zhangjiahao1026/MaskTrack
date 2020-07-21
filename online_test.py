@@ -203,7 +203,8 @@ class Online_test():
                 first_mask_path = os.path.join(base_path,'Annotations',video,'00000.png')
                 img_dir = os.path.join(base_path,'JPEGImages',video)
                 save_dir = os.path.join(result_dir,video)
-
+                if not os.path.exists(save_dir):
+                    os.makedirs(save_dir)
                 shutil.copyfile(first_mask_path,os.path.join(save_dir,'00000.png'))
     
                 self.test_without_train(net,first_mask_path,img_dir,save_dir=save_dir,use_cuda=self.use_cuda)
